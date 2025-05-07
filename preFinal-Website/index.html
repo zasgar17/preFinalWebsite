@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plant Info</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<header>
+  <nav class="navbar">
+    <div class="site-name">
+        <img src="https://i.pinimg.com/736x/23/37/17/233717a5e422c45cdadbd431b522074f.jpg" alt="Site Logo" class="logo">
+        <h1>Plant World</h1>
+    </div>
+  </nav>
+</header>
+<body>
+  <!-- Top Section -->
+  <section class="top-section">
+    <div class="top-left-image">
+      <img src="—Pngtree—small leaf hanging green plant_5768251.png" alt="Plant" />
+    </div>
+    <div class="intro-text">
+      <h1>Plant World</h1>
+      <h3>Why I need this site?</h3>
+      <p>This website helps you learn how to care for different plants. Simply search by name and get useful info instantly!</p>
+      <input type="text" id="searchInput" placeholder="Search for a plant..." />
+    </div>
+  </section>
+
+  <section class="add-form">
+    <h2>Add a New Plant</h2>
+    <form id="plantForm">
+      <input type="text" id="name" placeholder="Plant Name" required />
+      <textarea id="generalInfo" placeholder="General Info" required></textarea>
+      <textarea id="careInstructions" placeholder="Care Instructions" required></textarea>
+      <input type="text" id="imageUrl" placeholder="Image URL (optional)" />
+      <button type="submit">Add Plant</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Results -->
+  <section id="results" class="results"></section>
+
+  <!-- Bottom Right Image -->
+  <div class="bottom-right-image">
+    <img src="image-from-rawpixel-id-12701460-png.png" alt="Plant Decoration" />
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Plant World</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

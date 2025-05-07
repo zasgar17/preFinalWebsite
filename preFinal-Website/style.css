@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5fff5;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #b2e6b2;
+    padding: 15px 30px;
+    text-align: center;
+  }
+
+  /* Top Section */
+  .top-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 30px;
+    position: relative;
+  }
+  
+  .top-left-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .intro-text {
+    margin-left: 30px;
+    max-width: 700px;
+  }
+  
+  .intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4b834b;
+  }
+  
+  .intro-text p {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #searchInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Results Section */
+  .results {
+    padding: 30px;
+    min-height: 200px;
+  }
+  
+  /* Bottom Right Image */
+  .bottom-right-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 35px;
+  }
+  
+  .bottom-right-image img {
+    width: 250px;
+    height: 350px;
+    object-fit: fill;
+    border-radius: 12px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #b2e6b2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }
+  
+  .logo {
+    height: 70px; /* Adjust as needed */
+    margin-left: 10px;
+  }
+
+  .site-name{
+    display: flex; 
+    align-items: center;
+    gap: 15px; 
+  }
+  
+  header .site-name h1 {
+    color: #414830;
+    font-size: 45px;
+    margin-left: 30px;
+    white-space: nowrap;
+  }
+
+  .plant-info {
+    background-color: #e8f8e8;
+    border: 1px solid #a4d6a4;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+  }
+
+  .add-form {
+    background-color: #f0fff0;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border-top: 2px solid #b2e6b2;
+  }
+  
+  .add-form h2 {
+    margin-bottom: 15px;
+  }
+  
+  .add-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+  }
+  
+  .add-form input,
+  .add-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  
+  .add-form button {
+    background-color: #98d898;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-form button:hover {
+    background-color: #4e8e4e; 
+  }  
+  
+  #formMessage {
+    margin-top: 10px;
+    color: green;
+  }
+  .plant-image {
+    max-width: 300px;
+    margin: 15px 0;
+    border-radius: 12px;
+  }
+    
